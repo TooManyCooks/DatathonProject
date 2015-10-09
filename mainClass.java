@@ -10,12 +10,12 @@ import com.opencsv.*;
 
 public class mainClass {
 	static int nullInt = 0;
-	static List<user> users 				= new ArrayList<user>();
-	public static List<movie> movies 		= new ArrayList<movie>();
-	static ArrayList<Integer> predictions 	= new ArrayList<Integer>();
-	static String usersReference 			= "C:\\Users\\Jake\\Desktop\\Course Work\\Algorithms\\Datathon Challenge\\Users.tsv";
-	static String movieReference 			= "C:\\Users\\Jake\\Desktop\\Course Work\\Algorithms\\Datathon Challenge\\Movies.tsv";
-	static String ratingReference 			= "C:\\Users\\Jake\\Desktop\\Course Work\\Algorithms\\Datathon Challenge\\Ratings.tsv";
+	static List<user> users = new ArrayList<user>();
+	public static List<movie> movies = new ArrayList<movie>();
+	static ArrayList<Integer> predictions = new ArrayList<Integer>();
+	static String usersReference = "C:\\Users\\Jake\\Desktop\\Course Work\\Algorithms\\Datathon Challenge\\Users.tsv";
+	static String movieReference = "C:\\Users\\Jake\\Desktop\\Course Work\\Algorithms\\Datathon Challenge\\Movies.tsv";
+	static String ratingReference = "C:\\Users\\Jake\\Desktop\\Course Work\\Algorithms\\Datathon Challenge\\Ratings.tsv";
 	private static CSVReader csvReader;
 	
 	public static void main(String args[]) throws IOException {    
