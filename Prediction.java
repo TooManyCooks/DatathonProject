@@ -18,13 +18,13 @@ public class Prediction extends mainClass {
 	static ArrayList<Integer> moviePreference;
 	
 	public void setValues(int user, int movie) {
-		userID 			= user;
-		movieID 		= movie;
-		movie mov 		= movies.get(movie-1);
-		movieAverage 	= mov.getAverage();
-		genreArray 		= mov.getGenre();
-		user userRef	= new user();
-		ratingsArray 	= userRef.getRatings();
+		userID = user;
+		movieID = movie;
+		movie mov = movies.get(movie-1);
+		movieAverage = mov.getAverage();
+		genreArray = mov.getGenre();
+		user userRef = new user();
+		ratingsArray = userRef.getRatings();
 	}
 	public double getPrediction() {
 		return movieAverage;
